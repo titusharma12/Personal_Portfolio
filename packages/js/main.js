@@ -225,6 +225,7 @@ function SendDetails() {
         // alert(subject);
         if (description != null && description != "") {
           alert("thanks for submiting your information");
+          console.log(name,email,subject,description);
           document.getElementById("name").value = "";
           document.getElementById("email").value= "";
           document.getElementById("subject").value= "";
